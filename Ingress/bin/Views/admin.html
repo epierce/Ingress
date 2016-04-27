@@ -1,0 +1,86 @@
+﻿@Master['layout']
+
+@Section['Content']
+
+<div data-ng-controller="admin">
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend> </legend>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="SelectItem">Edit Existing</label>
+                <div class="col-md-4">
+                    <select id="SelectItem" name="SelectItem" class="form-control" ng-model="data.selectedItem">
+                        <option value="-1">Create a New Item</option>
+                        <option ng-repeat="option in data.itemList" value="{{$index}}">{{option.Title}} - {{option.Url}}</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Title">Title</label>
+                <div class="col-md-4">
+                    <input id="Title" name="Title" type="text" placeholder="Example" class="form-control input-md" required="" ng-model="data.itemList[data.selectedItem].Title">
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Url">Link To</label>
+                <div class="col-md-4">
+                    <input id="Url" name="Url" type="text" placeholder="http://example.com" class="form-control input-md" required="" ng-model="data.itemList[data.selectedItem].Url">
+
+                </div>
+            </div>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="ImageUrl">Image Url</label>
+                <div class="col-md-4">
+                    <input id="ImageUrl" name="ImageUrl" type="text" placeholder="http://example.com/image.jpg" class="form-control input-md" ng-model="data.itemList[data.selectedItem].ImageUrl">
+
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="ImageWidth">Image Width (px)</label>
+                <div class="col-md-4">
+                    <input id="ImageWidth" name="ImageWidth" class="form-control" placeholder="100" type="text" ng-model="data.itemList[data.selectedItem].ImageWidth">
+                    <p class="help-block">300px Max</p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="ImageHeight">Image Height (px)</label>
+                <div class="col-md-4">
+                    <input id="ImageHeight" name="ImageHeight" class="form-control" placeholder="100" type="text" ng-model="data.itemList[data.selectedItem].ImageHeight">
+                    <p class="help-block">300px Max</p>
+                </div>
+            </div>
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Description">Description</label>
+                <div class="col-md-4">
+                    <textarea class="form-control" id="Description" name="Description" ng-model="data.itemList[data.selectedItem].Description"></textarea>
+                </div>
+            </div>
+            {{data.selectedItem}}
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Submit"></label>
+                <div class="col-md-3">
+                    <button id="Submit" name="Submit" class="btn btn-info btn-block btn-lg" ng-click="saveData(data.itemList[data.selectedItem])">Save</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+
+
+@EndSection

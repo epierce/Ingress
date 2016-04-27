@@ -1,0 +1,52 @@
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\obj\Debug\Ingress.csprojResolveAssemblyReference.cache
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Content\img\glyphicons-halflings-white.png
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Content\img\glyphicons-halflings.png
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Views\index.html
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Views\layout.html
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Ingress.dll.config
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Ingress.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Ingress.pdb
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\EntityFramework.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\EntityFramework.SqlServer.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Nancy.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Nancy.Hosting.Aspnet.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\System.Data.SQLite.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\System.Data.SQLite.EF6.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\System.Data.SQLite.Linq.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\EntityFramework.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\EntityFramework.SqlServer.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Nancy.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Nancy.Hosting.Aspnet.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\System.Data.SQLite.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\obj\Debug\Ingress.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\obj\Debug\Ingress.pdb
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Nancy.Serialization.JsonNet.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Newtonsoft.Json.dll
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Newtonsoft.Json.xml
+C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Views\admin.html
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Content\img\glyphicons-halflings-white.png
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Content\img\glyphicons-halflings.png
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\admin.html
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\index.html
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\layout.html
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Ingress.dll.config
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Ingress.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Ingress.pdb
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\EntityFramework.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\EntityFramework.SqlServer.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Nancy.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Nancy.Hosting.Aspnet.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Nancy.Serialization.JsonNet.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Newtonsoft.Json.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\System.Data.SQLite.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\System.Data.SQLite.EF6.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\System.Data.SQLite.Linq.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\EntityFramework.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\EntityFramework.SqlServer.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Nancy.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Nancy.Hosting.Aspnet.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Newtonsoft.Json.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\System.Data.SQLite.xml
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.csprojResolveAssemblyReference.cache
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.dll
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.pdb

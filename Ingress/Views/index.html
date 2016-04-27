@@ -1,0 +1,23 @@
+﻿@Master['layout']
+
+@Section['Content']
+
+<div data-ng-controller="home">
+    <ul class="dynamic-grid" angular-grid="pics" grid-width="225" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
+
+        <li data-ng-repeat="item in items" class="grid" data-ng-cloak>
+            <div class="hovereffect">
+                <a href="{{item.Url}}">
+                    <img src="{{item.ImageUrl}}" class="grid-img" data-actual-width="{{item.ImageWidth}}" data-actual-height="{{item.ImageHeight}}" />
+                    <div class="overlay">
+                        <h2><b>{{item.Title}}</b></h2>
+                        <p>
+                            {{item.Description}}
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+@EndSection

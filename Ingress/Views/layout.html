@@ -1,0 +1,54 @@
+﻿<!doctype html>
+
+<html lang="" ng-app="ingressApp">
+<head>
+
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingress</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="@Path['~/content/lib/bootstrap/dist/css/bootstrap.css']" rel="Stylesheet" />
+    <link href="@Path['~/content/css/site.css']" rel="Stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Ingress</a>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/admin">Admin</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @Section['Content']
+        <hr />
+        <footer>
+            <p>&copy; 2016 - Ingress</p>
+        </footer>
+    </div>
+    <script src="@Path['~/content/lib/jquery/dist/jquery.min.js']"></script>
+    <script src="@Path['~/content/lib/bootstrap/dist/js/bootstrap.min.js']"></script>
+    <script src="@Path['~/content/lib/angular/angular.min.js']"></script>
+    <script src="@Path['~/content/lib/angulargrid/angulargrid.min.js']"></script>
+    <script src="@Path['~/content/lib/angular-sanitize/angular-sanitize.min.js']"></script>
+    <script src="@Path['~/content/js/site.js']"></script>
+
+</body>
+</html>
