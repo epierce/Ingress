@@ -26,7 +26,6 @@ C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bi
 C:\Users\epierce.FOREST\Documents\Visual Studio 2015\Projects\Ingress\Ingress\bin\Views\admin.html
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Content\img\glyphicons-halflings-white.png
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Content\img\glyphicons-halflings.png
-C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\admin.html
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\index.html
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\layout.html
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Ingress.dll.config
@@ -50,3 +49,5 @@ C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\System.Data.SQLite.xml
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.csprojResolveAssemblyReference.cache
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.dll
 C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\obj\Debug\Ingress.pdb
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\admin-items.html
+C:\Users\epierce.FOREST\Source\Repos\Ingress\Ingress\bin\Views\admin-notifications.html

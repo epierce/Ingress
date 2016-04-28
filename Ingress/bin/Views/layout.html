@@ -10,6 +10,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="@Path['~/content/lib/bootstrap/dist/css/bootstrap.css']" rel="Stylesheet" />
+    <link href="@Path['~/content/lib/angular-notify/dist/angular-notify.css']" rel="Stylesheet" />
     <link href="@Path['~/content/css/site.css']" rel="Stylesheet" />
     <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 
@@ -30,7 +31,8 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/admin">Admin</a></li>
+                    <li><a href="/admin/items">Edit Items</a></li>
+                    <li><a href="/admin/notifications">Edit Notifications</a></li>
                 </ul>
             </div>
         </div>
@@ -44,10 +46,13 @@
         </footer>
     </div>
     <script src="@Path['~/content/lib/jquery/dist/jquery.min.js']"></script>
+    <script src="@Path['~/content/lib/images-loaded/imagesloaded.pkgd.min.js']"></script>
     <script src="@Path['~/content/lib/bootstrap/dist/js/bootstrap.min.js']"></script>
     <script src="@Path['~/content/lib/angular/angular.min.js']"></script>
     <script src="@Path['~/content/lib/angulargrid/angulargrid.min.js']"></script>
     <script src="@Path['~/content/lib/angular-sanitize/angular-sanitize.min.js']"></script>
+    <script src="@Path['~/content/lib/angular-notify/dist/angular-notify.min.js']"></script>
+    <script src="@Path['~/content/lib/angular-images-loaded/angular-images-loaded.js']"></script>
     <script src="@Path['~/content/js/site.js']"></script>
 
 </body>

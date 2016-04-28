@@ -1,0 +1,47 @@
+﻿@Master['layout']
+
+@Section['Content']
+
+<div data-ng-controller="admin-notifications">
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+            <legend> </legend>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="SelectNotification">Edit Existing</label>
+                <div class="col-md-4">
+                    <select id="SelectNotification" name="SelectNotification" class="form-control" ng-model="data.selectedNotification">
+                        <option value="-1">Create a New Notification</option>
+                        <option ng-repeat="option in data.messageList" value="{{$index}}">{{option.Message}}</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Textarea -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Description">Message</label>
+                <div class="col-md-4">
+                    <textarea class="form-control" id="Message" name="Message" ng-model="data.messageList[data.selectedNotification].Message"></textarea>
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="Submit"></label>
+                <div class="col-md-2">
+                    <button id="Submit" name="Submit" class="btn btn-info btn-block btn-lg" ng-click="saveNotification(data.messageList[data.selectedNotification])">Save</button>
+                </div>
+                <div class="col-md-2">
+                    <button id="Delete" name="Delete" class="btn btn-danger btn-block btn-lg" ng-click="deleteNotification(data.messageList[data.selectedNotification])">Delete</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+
+
+@EndSection

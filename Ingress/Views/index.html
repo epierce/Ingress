@@ -2,20 +2,33 @@
 
 @Section['Content']
 
-<div data-ng-controller="home">
-    <ul class="dynamic-grid" angular-grid="pics" grid-width="225" gutter-size="10" angular-grid-id="gallery" refresh-on-img-load="false">
+<br />
+<div data-ng-controller="home-notifications" class="row ng-cloak">
+    <div ng-repeat="notification in notifications" class="row">
+        <div class="alert alert-info alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <span ng-bind-html="notification.Message"></span>
+            </div>
+    </div>
+</div>
+<div data-ng-controller="home-items" class="row ng-cloak">
+    <ul class="dynamic-grid" angular-grid="pics" ag-grid-width="225" ag-gutter-size="10" ag-id="gallery" ag-refresh-on-img-load="false">
 
-        <li data-ng-repeat="item in items" class="grid" data-ng-cloak>
-            <div class="hovereffect">
-                <a href="{{item.Url}}">
-                    <img src="{{item.ImageUrl}}" class="grid-img" data-actual-width="{{item.ImageWidth}}" data-actual-height="{{item.ImageHeight}}" />
-                    <div class="overlay">
-                        <h2><b>{{item.Title}}</b></h2>
-                        <p>
-                            {{item.Description}}
-                        </p>
-                    </div>
-                </a>
+        <li data-ng-repeat="item in items" class="grid" ag-refresh-on-img-load="true">
+            <div>
+                <figure class="effect-sadie">
+                    <a href="{{item.Url}}">
+                        <img ng-src="{{item.ImageUrl}}" class="grid-img" data-actual-width="{{item.ImageWidth}}" data-actual-height="{{item.ImageHeight}}" />
+                        <figcaption>
+                            <div>
+                                <h2 ng-bind-html="item.Title"></h2>
+                                <p ng-bind-html="item.Description"></p>
+                            </div>
+                        </figcaption>
+                    </a>
+                </figure>
             </div>
         </li>
     </ul>

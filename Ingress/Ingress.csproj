@@ -115,7 +115,10 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Database.cs</LastGenOutput>
     </Content>
-    <Content Include="Views\admin.html">
+    <Content Include="Views\admin-notifications.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\admin-items.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Views\index.html">
@@ -133,6 +136,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Database.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\NotificationModel.cs" />
+    <Compile Include="Modules\NotificationModule.cs" />
     <Compile Include="Modules\UserModule.cs" />
     <Compile Include="Util\PetaPoco.cs" />
     <Compile Include="Models\UserModel.cs" />

@@ -8,7 +8,9 @@ namespace Ingress.Modules
         {
             Get["/"] = _ => View["index"];
 
-            Get["/admin"] = _ => View["admin"];
+            Get["/admin/items"] = _ => View["admin-items"];
+
+            Get["/admin/notifications"] = _ => View["admin-notifications"];
         }
     }
 }
